@@ -1,0 +1,116 @@
+body {
+    background-image: url(../asset/background.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Header {
+    font-family: 'Trebuchet MS';
+    margin-left: 5vh;
+    display: block;
+    width: 100%;
+    height: 10vh;
+}
+
+.containner {
+    display: flex;
+    float: left;
+    margin-top: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav a {
+    font-size: 3vh;
+    color: #FFFFFF;
+    padding-right: 100px;
+    float: right;
+    display: flex;
+    margin-top: 25px;
+}
+
+.judul {
+    opacity: 0.7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    font-size: 28px;
+}
+
+.bgisi {
+    opacity: 0.7;
+    background-color: black;
+    margin-left: 90px;
+    max-width: 1180px;
+    height: 950px;
+    margin-top: 40px;
+}
+
+.isi {
+    height: 1015px;
+    width: 1100px;
+    margin-left: 50px;
+    font-size: 3vh;
+    text-align: left;
+    color: white;
+    padding-top: 50px;
+    padding-right: 70px;
+    font-family: 'krona One';
+}
+
+.copyright {
+    font-size: 20px;
+    border-top: 5px solid;
+    margin-top: 50px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    height: 9vh;
+    width: 105%;
+    color: white;
+    position: absolute;
+    display:-webkit-flex;
+}
+.copisi {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 45px;
+}
+
+@media screen and (max-width: 1400px) {
+    .body {
+        max-height: max-content;
+    }
+    .Header {
+        font-size: 2vh;
+    }
+    .nav a {
+        font-size: 1.5vh;
+    }
+    .judul {
+        padding-top: 3vw;
+        font-size: 2vh;
+    }
+    .isi {
+        display: inline;
+        font-size: 2.2vh;
+       
+    }
+    .bgisi {
+        margin-left: 7vh;
+    }
+
+    .copisi{
+        font-size: 2vh;
+    }
+}

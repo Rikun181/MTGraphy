@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI kelompok 15 juni</title>
+    <link rel="stylesheet" href="../Subscribe/Subscribe.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+
+        <div class="Header">
+            <div class="containner">
+                <h1>MTGraphy</h1>
+            </div>
+            <div class="nav">
+                <a href="../Subscribe/Subscribe.html">Subscribe</a>
+                <a href="../Gallery/gallery.html">Gallery</a>
+                <a href="../About Us/About us.html">About Us</a>
+                <a href="../Contact Us/Contact us.html">Contact Us</a>
+                <a href="../Home/Home.html">Home</a>
+            </div>
+
+        </div>
+
+    </header>
+   
+        <div class="forumpage">
+            <div class="kotak">
+                <div class="forum">
+                    <div class="title">Sign Up</div>
+
+                    <form name="Join" action="../Home/Home.html" onsubmit="return validasi()">
+                    <div class="forum">
+                        <label for="name">Username</label>
+                        <input type="text" name="nama" id="nama" placeholder="enter your username">
+                    </div>
+
+                </div>
+                <div class="forum">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email">
+                </div>
+
+                <div class="forum">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="enter your password">
+                </div>
+
+                <div class="forum">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="enter your age">
+                </div>
+
+                <div class="forum">
+                    
+                    <input type="checkbox" name="term" id="term">
+                    <label for="term">I agree to terms and conditions.</label>
+                </div>
+
+                <div class="error">
+                    <span id="error"></span>
+                </div>
+
+                <div class="tombol">
+                    <button type="submit">Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="copyright">
+        <div class="copisi">
+            <p>Copyright © MTGraphy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</html>
